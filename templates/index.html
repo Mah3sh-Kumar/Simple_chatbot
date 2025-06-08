@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot Intro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style-index.css') }}">
+</head>
+<body>
+    <main>
+        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712100.png" alt="Chatbot Icon" width="80" style="margin-bottom: -0.1rem;">
+
+
+        <h1>Welcome to Mahesh's AI ChatBot</h1>
+        <p>This chatbot uses Google API to respond to your queries smartly. Try it out..!</p>
+        <a href="{{ url_for('chatbot') }}">
+            <button type="button">Talk to Chatbot</button>
+        </a>
+    </main>
+</body>
+</html>
+
+
